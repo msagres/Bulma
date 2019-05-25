@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<!-- head -->
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Exemple CV Bulma</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <!-- CSS -->
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+        <!-- fonts -->
+
+        <!-- icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+                integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+                crossorigin="anonymous">
+        <!-- icons -->
+
+        <!--meta SEO -->
+        <meta name="description" content="description du site">
+        <meta name="keywords" content="mots clés">
+        <!-- meta SEO -->
+
+        <!-- meta mobile -->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <link rel="stylesheet" media="screen and (max-width: 880px)" href="src/css/media.css" type="text/css" />
+        <!-- meta mobile -->
+
+</head>
+<!--head-->
+
+
+<!-- body -->
+
+<body>
+
+        <!-- header -->
+        <div class="block">
+                <header class="header">
+                        <a href="#" class="header-logo">Mon Portefolio</a>
+                        <nav class="header-menu">
+                                <a href="#">Accueil</a>
+                                <a href="#">A Propos</a>
+                                <a href="#">Mes travaux</a>
+                                <a href="#">Contact</a>
+                        </nav>
+                </header>
+        </div>
+        <!-- header -->
+
+        <!-- banner -->
+        <div class="block">
+                <div class="banner">
+                        <figure class="image is-5by3">
+                                <img src="src/img/work-unsplash.jpg" alt="Une Salle de travail" class="banner-image">
+                        </figure>
+                        <div class="banner-content">
+                                <h1 class="title is-1">Bienvenue sur mon portefolio fait sous Bulma</h1>
+                                <h2 class="subtitle">Découvrez mes travaux et mon univers sous ce framework CSS</h2>
+                                <button class="button is-black" id="open_modal">Contactez-moi !</button>
+                        </div>
+                </div>
+        </div>
+        <!-- banner -->
+        
+        <!-- modal -->
+        <div class="modal own-modal" id="modal_to_open">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                        <header class="modal-card-head">
+                                <p class="modal-card-title">Voici mes coordonnées</p>
+                                <button class="delete" aria-label="close" id="close_modal"></button>
+                        </header>
+                        <section class="modal-card-body">
+                                <p><b>Téléphone:</b> 0777346854</p>
+                                <p><b>Email:</b> msagres@hotmail.fr</p>
+                        </section>
+                        <footer class="modal-card-foot">
+                        </footer>
+                </div>
+        </div>
+        <!-- modal -->
+
+        <!-- section: A propos -->
+        <div class="block">
+                <h2 class="subtitle heading-site">A Propos</h2>
+                <div class="container about">
+                        <div class="columns">
+                                <div class="column about-single-element">
+                                        <img src="https://img.icons8.com/color/96/000000/design.png"
+                                                alt="Un crayon et une règle">
+                                        <p>
+                                                Eu ad anim aliqua aute laborum nisi in eiusmod proident voluptate minim
+                                                exercitation. Proident voluptate proident esse qui velit. Cupidatat in
+                                                adipisicing deserunt et pariatur commodo consectetur irure commodo
+                                                excepteur elit.
+                                        </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <img src="https://img.icons8.com/color/96/000000/web-design.png"
+                                                alt="Une fenêtre de navigateur">
+                                        <p>
+                                                Eu ad anim aliqua aute laborum nisi in eiusmod proident voluptate minim
+                                                exercitation. Proident voluptate proident esse qui velit. Cupidatat in
+                                                adipisicing deserunt et pariatur commodo consectetur irure commodo
+                                                excepteur elit. </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <img src="https://img.icons8.com/color/96/000000/suitcase.png" alt="Une Valise">
+                                        <p>
+                                                Eu ad anim aliqua aute laborum nisi in eiusmod proident voluptate minim
+                                                exercitation. Proident voluptate proident esse qui velit. Cupidatat in
+                                                adipisicing deserunt et pariatur commodo consectetur irure commodo
+                                                excepteur elit.
+                                        </p>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <!-- section: A propos -->
+
+
+        <!-- section: portefolio -->
+        <div class="block">
+                <h2 class="subtitle heading-site">Portefolio</h2>
+                <div class="container portefolio">
+                        <div class="columns">
+                                <div class="column about-single-element">
+                                        <<i class="fas fa-code icon"></i>>
+                                                <p>
+                                                        Ea irure id irure et nisi labore mollit eu. Commodo esse
+                                                        voluptate nisi tempor anim consectetur et fugiat enim cillum
+                                                        nisi. Anim minim tempor ea eiusmod eu
+                                                </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <i class="fas fa-mug-hot icon"></i>
+                                        <p>
+                                                Ea irure id irure et nisi labore mollit eu. Commodo esse voluptate nisi
+                                                tempor anim consectetur et fugiat enim cillum nisi. Anim minim tempor ea
+                                                eiusmod eu
+                                        </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <i class="fas fa-pen icon"></i>
+                                        <p>
+                                                Ea irure id irure et nisi labore mollit eu. Commodo esse voluptate nisi
+                                                tempor anim consectetur et fugiat enim cillum nisi. Anim minim tempor ea
+                                                eiusmod eu
+                                        </p>
+                                </div>
+                        </div>
+                        <div class="columns">
+                                <div class="column about-single-element">
+                                        <i class="fas fa-code icon"></i>
+                                        <p>
+                                                Ea irure id irure et nisi labore mollit eu. Commodo esse voluptate nisi
+                                                tempor anim consectetur et fugiat enim cillum nisi. Anim minim tempor ea
+                                                eiusmod eu
+                                        </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <i class="fas fa-mug-hot icon"></i>
+                                        <p>
+                                                Ea irure id irure et nisi labore mollit eu. Commodo esse voluptate nisi
+                                                tempor anim consectetur et fugiat enim cillum nisi. Anim minim tempor ea
+                                                eiusmod eu
+                                        </p>
+                                </div>
+                                <div class="column about-single-element">
+                                        <i class="fas fa-pen icon"></i>
+                                        <p>
+                                                Ea irure id irure et nisi labore mollit eu. Commodo esse voluptate nisi
+                                                tempor anim consectetur et fugiat enim cillum nisi. Anim minim tempor ea
+                                                eiusmod eu
+                                        </p>
+                                </div>
+                        </div>
+                </div>
+                <!-- section: portefolio -->
+
+                <!-- section: contact -->
+                <div class="block">
+                        <footer class="footer">
+                                <h2 class="subtitle heading-site">Contactez-moi !</h2>
+                                <div class="footer-contact-form">
+                                        <form>
+                                                <div class="field">
+                                                        <label class="label">Votre Nom</label>
+                                                        <div class="control">
+                                                                <input class="input" type="text" placeholder="Nom">
+                                                        </div>
+                                                </div>
+                                                <div class="field">
+                                                        <label class="label">Votre Prénom</label>
+                                                        <div class="control">
+                                                                <input class="input" type="text" placeholder="Prénom">
+                                                        </div>
+                                                </div>
+                                                <div class="field">
+                                                        <label class="label">Votre email</label>
+                                                        <div class="control">
+                                                                <input class="input" type="text" placeholder="email">
+                                                        </div>
+                                                </div>
+                                                <div class="field">
+                                                        <label class="label">Votre message</label>
+                                                        <div class="control">
+                                                                <textarea class="textarea"
+                                                                        placeholder="Votre message"></textarea>
+                                                        </div>
+                                                </div>
+
+                                        </form>
+                                </div>
+                                <div class="footer-informations">
+                                        <ul>
+                                                <li>
+                                                        <a href="https://www.facebook.com/" target="_blank">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://twitter.com/" target="_blank">
+                                                                <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://fr.linkedin.com/" target="_blank">
+                                                                <i class="fab fa-linkedin"></i>
+                                                        </a>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </footer>
+                </div>
+                <!-- section: contact -->
+
+                <script src="https://code.jquery.com/jquery-3.4.1.js"
+                        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+                </script>
+                <script src="src/js/main.js"></script>
+</body>
+<!-- body -->
+
+</html>
