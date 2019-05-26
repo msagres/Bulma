@@ -1,6 +1,6 @@
 ### Web exemple of the use of Bulma a CSS framework
 
-# Lien
+# Link
 
 https://msagres.github.io/Bulma/
 
