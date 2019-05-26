@@ -1,6 +1,4 @@
-# CV BULMA
-
-CV type en framework CSS Bulma 
+### Web exemple of the use of Bulma a CSS framework
 
 # Lien
 
